@@ -1,0 +1,30 @@
+.ticket-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px; /* Reduced border radius */
+  padding: 6px; /* Decreased padding */
+  margin-bottom: 6px; /* Reduced margin */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow intensity */
+  width: 85%; /* Slightly narrower cards */
+  cursor: grab;
+}
+
+.ticket-card:hover {
+  background: #f1f1f1;
+}
+
+.ticket-card h3 {
+  font-size: 0.9rem; /* Smaller title font */
+  margin: 0 0 4px;
+}
+
+.ticket-card p {
+  font-size: 0.8rem; /* Smaller description font */
+  color: #6c757d;
+  margin: 0;
+}
+
+.priority-icon {
+  width: 16px;
+  height: 16px;
+}
